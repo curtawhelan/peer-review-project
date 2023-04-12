@@ -45,16 +45,15 @@ main {
 
 body {
     margin: 0;
-    font-family: 'Helvetica';
-    background-color: #d0604c;
+    font-family:'Helvetica';
+    background-color: #f2e0d2;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 10px;
-    min-height: 100vh;
+    grid-gap: 20px;
 }
 
 .grid-container > div {
